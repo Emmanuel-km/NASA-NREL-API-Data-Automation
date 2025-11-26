@@ -1,5 +1,8 @@
 #imports
 import sqlite3
+import requests
+import pandas as pd
+
 
 #variables and constants
 Base_url='https://power.larc.nasa.gov/api/temporal/daily/point?'
