@@ -20,5 +20,6 @@ def fetch_nasa_power_data():
         print("Error fetching data:", response.status_code)
         return None
 data = fetch_nasa_power_data()
+pd=pd.df(data)
 #converting data into a pandas df
 print(data)
