@@ -25,4 +25,6 @@ def fetch_nasa_power_data():
         print("An error occurred:", e)
         return None
 data = fetch_nasa_power_data()
+pd=pd.df(data)
+#converting data into a pandas df
 print(data)
